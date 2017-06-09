@@ -1,6 +1,5 @@
 var http = require('http'),
-    fs = require('fs')
-    express = require('express');
+    fs = require('fs');
 
 var server = http.createServer(function(req, res){
   console.log('The server started'+req.url);
